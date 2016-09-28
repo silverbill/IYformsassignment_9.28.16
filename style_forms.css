@@ -1,0 +1,57 @@
+﻿*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.main {
+    max-width: 800px;
+    margin: auto;
+    background-color: darkcyan;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.main > * {
+    display: inline-block;
+    font-size: medium;
+    text-align: left;
+}
+
+input, select {
+    width: 90%;
+    border-color: lightgray;
+
+}
+
+textarea {
+    height: 100px;
+    width: 90%;
+
+}
+input:focus {
+    border: 3px solid orange; 
+}
+
+/*select {
+    width: 90%;
+}*/
+
+.leftstack {
+    width: 260px;
+    margin: auto;
+    padding-left: 30px;
+    vertical-align: top;
+}
+
+.centerstack {
+    width: 260px;
+    margin: auto;
+    padding-left: 30px;
+    vertical-align: top;
+}
+
+.rightstack {
+    width: 260px;
+    margin: auto;
+    padding-left: 30px;
+    vertical-align: top;
+}
