@@ -31,10 +31,6 @@ input:focus {
     border: 3px solid orange; 
 }
 
-/*select {
-    width: 90%;
-}*/
-
 .leftstack {
     width: 260px;
     margin: auto;
@@ -42,7 +38,7 @@ input:focus {
     vertical-align: top;
 }
 
-.centerstack {
+.centerstack { 
     width: 260px;
     margin: auto;
     padding-left: 30px;
